@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бизнес-Система</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-bg"></div>
+        <img class="header-logo" href="./Main.html" src="./images/logo 1.png" alt="logo">
+        <h1 class="header-business">Бизнес система</h1>
+        <h1 class="header-ocenka">оценочная компания</h1>
+        <h1 class="header-vladimir">г. Владимир</h1>
+        <a class="header-zayavka openPopup" href="#" >Оставить заявку</a>
+        <h1 class="header-locate">ул. 1-я Никольская, д. 10, оф. 8</h1>
+        <h1 class="header-time">с 9:00 до 18:00 ПН - ПТ</h1>
+        <h1 class="header-contact">+7(920) 628-88-33 
+            323860@mail.ru</h1>
+    </header>
+    <main>
+
+        <nav class="navigation">
+            <ul class="list-line">
+                <li><a class="main" href="./Main.html">Главная</a></li>
+                <li><a class="about" href="#main-about">О компании</a></li>
+                
+                <div class="dropdown">
+                    <a class="uslugi" href="#nashi-uslugi">Услуги </a>
+                    <div class="dropdown-content">
+                        <a href="./nedviz.html">Оценка недвижимости</a>
+                        <a href="./dviz.html">Оценка движимого имущества</a>    
+                        <a href="./nemat.html">Оценка нематериальных активов</a>
+                        <a href="./buis.html">Оценка бизнеса</a>
+                        <a href="./ush.html">Оценка ущерба</a>
+                        <a href="./sud.html">Судебные экспертизы</a>
+                    </div>
+                </div>
+                <a class="contacts" href="#main-con">Контакты</a>
+            </ul>
+        </nav>
+
+        <button id="backToTopBtn" onclick="scrollToTop()">&#8593</button>
+
+
+        <div id="main-about" class="about-bg"></div>
+        <h1  class="main-about">о компании</h1>
+        <h1 class="about-text">Независимой оценкой рыночной стоимости имущества специалисты  в ООО «Бизнес-Система» мы занимаемся уже почти 15 лет. За это время изменилась не только наша страна, но и изменились технологии как в жизни так и в оценке. Мы идем в ногу со временем, становимся современнее, умнее, технологичнее.</h1>
+        <img class="about-img" src="./images/about.png" alt="about">
+        <h1 class="otchet">Наши отчеты</h1>
+        <h1 class="otchet-about">Наши отчеты являются документом доказательного значения</h1>
+        <ul class="perech">
+            <li>Наши отчеты соответствуют требованиям ФЗ-135 - ФСО - МСО</li>
+            <li>Все суды Российской Федерации принимают наши отчеты</li>
+            <li>Более 10000 подготовленных отчетов</li>
+        </ul>
+        <ul class="perech-second">
+            <li>Наши отчеты принимают все нотариусы России</li>
+            <li>Наши отчеты соответствуют требованиям государственных органов Российской Федерации</li>
+            <li>24 часа на подготовку отчета</li>
+        </ul>
+
+        <h1 class="sert">Наши сертификаты</h1>
+
+
+        
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopup">&#10006;</span>
+                <p>Оставить заявку</p>
+                <form action="">
+                    <input data-mask="fio" type="text" placeholder="Ваше ФИО...">
+                    <input data-mask="phone" type="text" placeholder="Ваш номер телефона..." >
+                    <button>Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+
+
+        
+        
+        <div class="im1">
+            <img class="i1" src="./images/s1.png" alt="sertificat-1">
+            <h1 class="image-first">полис обязательного страхования ответственности оценщика при осуществлении оценочной деятельности</h1>
+        </div>
+
+        <div  class="im2">
+            <img class="i2" src="./images/s2.png" alt="sertificat-2">
+            <h2 class="image-sec">полис обязательного страхования ответственности оценщика при осуществлении оценочной деятельности</h2>
+        </div>
+
+        <div class="im3">
+            <img class="i3" src="./images/s3.png" alt="sertificat-3">
+            <h1 class="img-th">Выписка из реестра Ассоциации “Саморегурирукмая организация оценщиков “Экспертный совет”</h1>
+        </div>
+
+        <div class="im4">
+            <img class="i4" src="./images/s4.png" alt="sertificat-4">
+            <h1 class="img-fo">Выписка из реестра Ассоциации “Саморегурирукмая организация оценщиков “Экспертный совет”</h1>
+        </div>
+
+        <div class="im5">
+            <img class="i5" src="./images/s5.png" alt="sertificat-5">
+            <h1 class="img-fi">Квалификационный аттестат по оценке недвижимости</h1>
+        </div>
+
+        <div class="im6">
+            <img class="i6" src="./images/s6.png" alt="sertificat-6">
+            <h1 class="img-si">Квалификационный аттестат по оценке недвижимости</h1>
+        </div>
+
+        <div class="zap-rec" id="zapishis"></div>
+        <h1 class="zap-text">Запишитесь на онлайн консультацию прямо сейчас!</h1>
+        <a class="ost-za openPopup" href="#zapishis" >Оставить заявку</a>
+        <a class="za-cont" href="#main-con">Наши контакты</a>
+
+        <h1 class="main-uslugi" id="nashi-uslugi" >наши услуги</h1>
+        <div class="uslugi-rec" >
+        </div>
+
+        
+        <img class="u-house" src="./images/house.png" alt="house">
+        <h1 class="u-ned">Оценка недвижимости</h1>
+        <h1 class="u-ned-op">Жилые и нежилые помещения и здания (в том числе воздушные и морские суда, подлежащие государственной регистрации)</h1>
+        <a class="u-ned-pod" href="./nedviz.html">Подробнее</a>
+
+        <img class="u-car" src="./images/car.png" alt="car">
+        <h1 class="u-dvi">Оценка движущегося имущества</h1>
+        <h1 class="u-dvi-op">Оценивается все то, что не относится к движимому имуществу.</h1>
+        <a class="u-dvi-pod" href="./dviz.html">Подробнее</a>
+
+        <img src="./images/doc.png" alt="document" class="u-doc">
+        <h1 class="u-nem">Оценка нематериальных активов</h1>
+        <h1 class="u-nem-op">Оценка объектов не имеющих материальной формы, но которые могут приносить доход</h1>
+        <a class="u-nem-pod" href="./nemat.html">Подробнее</a>
+
+        <img src="./images/business.png" alt="business" class="business">
+        <h1 class="u-business">Оценка бизнеса</h1>
+        <h1 class="u-business-op">Оценка имущества как единого комплекса генерирующего денежный поток</h1>
+        <a class="u-business-pod" href="./buis.html">Подробнее</a>
+
+        <img src="./images/tube.png" alt="truba" class="truba">
+        <h1 class="u-usherb">Оценка ущерба</h1>
+        <h1 class="u-usherb-op">Расчет убытков вследствие чрезвычайных событий</h1>
+        <a class="u-usherb-pod" href="./ush.html">Подробнее</a>
+
+        <img src="./images/crash.png" alt="crash" class="crash">
+        <h1 class="u-sud">Судебные экспертизы</h1>
+        <h1 class="u-sud-op">Самостоятельное процессуальное действие, выполняемое экспертами в областях, требующих специальных знаний</h1>
+        <a class="u-sud-pod" href="./sud.html">Подробнее</a>
+
+        <h1 class="u-zap">Запишитесь на онлайн консультацию прямо сейчас!</h1>
+        <a class="u-rec openPopup" href="#">Оставить заявку</a>
+
+        <div id="main-con" class="con-rec"></div>
+        <h1 class="main-contact">контакты</h1>
+        <h1 class="c-bui">ООО "Бизнес-Система"</h1>
+        <h1 class="c-inn">ИНН 3329038042  КПП 332901001</h1>
+        <h1 class="c-adr">Адрес: 600000, г.Владимир, ул. 1-я Никольская, д. 10, оф. 8</h1>
+        <h1 class="c-mail">Почта: 323860@mail.ru</h1>
+        <h1 class="c-phone">Телефоны: +7(920) 628-88-33 / +7(930) 838-88-77</h1>
+        <h1 class="c-time">Время работы: пн - пт с 9:00 до 18:00, сб. вс - вых.</h1>
+
+        <div class="map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/192/vladimir/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Владимир</a><a href="https://yandex.ru/maps/192/vladimir/house/1_ya_nikolskaya_ulitsa_10/YEkYdQ5pSkcFQFtsfX1zeXllZQ==/?from=api-maps&ll=40.399322%2C56.128561&origin=jsapi_2_1_79&utm_medium=mapframe&utm_source=maps&z=17" style="color:#eee;font-size:12px;position:absolute;top:14px;" class="nick">1-я Никольская улица, 10 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?from=api-maps&ll=40.399322%2C56.128561&mode=search&ol=geo&origin=jsapi_2_1_79&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1Nzc3OTMwOBJI0KDQvtGB0YHQuNGPLCDQktC70LDQtNC40LzQuNGALCAxLdGPINCd0LjQutC-0LvRjNGB0LrQsNGPINGD0LvQuNGG0LAsIDEwIgoN6JghQhWlg2BC&z=17" width="1920" height="600" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+
+
+
+    </main>
+    <footer>
+        <img src="./images/logo 1.png" alt="logo" class="footer-logo">
+        <h1 class="footer-business">Бизнес система</h1>
+
+        <h1 class="footer-ocen">оценочная компания</h1>
+
+        <h1 class="footer-bui">ООО "Бизнес-Система"</h1>
+        <h1 class="footer-inn">ИНН 3329038042  КПП 332901001</h1>
+        <h1 class="footer-adr">Адрес: 600000, г.Владимир, ул. 1-я Никольская, д. 10, оф. 8</h1>
+        <h1 class="footer-mail">Почта: 323860@mail.ru</h1>
+        <h1 class="footer-phone">Телефоны: +7(920) 628-88-33 / +7(930) 838-88-77</h1>
+        <h1 class="footer-time">Время работы: пн - пт с 9:00 до 18:00, сб. вс - вых.</h1>
+        
+        <h1 class="footer-uslugi">Услуги</h1>
+        <a class="footer-ned" href="./nedviz.html">Оценка недвижимости</a>
+        <a class="footer-dvi" href="./dviz.html">Оценка движимого имущества</a>
+        <a class="footer-nem" href="./nemat.html">Оценка нематериальных активов</a>
+        <a class="footer-buis" href="./buis.html">Оценка бизнеса</a>
+        <a class="footer-ush" href="./ush.html">Оценка ущерба</a>
+        <a class="footer-exp" href="./sud.html">Судебные экспертизы</a>
+        <a class="footer-sop" href="#">Сопровождение покупки и продажи бизнеса</a>
+
+        <h1 class="footer-comp">Компания</h1>
+        <a class="footer-main" href="#">Главная</a>
+        <a class="footer-u" href="#nashi-uslugi">Услуги</a>
+        <a class="footer-about" href="#main-about">О компании</a>
+        <a class="footer-con" href="#main-con">Контакты</a>
+
+        <img src="./images/Viber.png" alt="viber" href="#" class="viber">
+        <img src="./images/Insta.png" alt="Instagram" href="#" class="Instagram">
+        <img src="./images/Telegram.png" alt="Telegram" href="#" class="Telegram">
+        <img src="./images/VK.png" alt="vkontakte" href="#" class="vkontakte">
+        <img src="./images/WhatsApp.png" alt="WhatsApp" href="#" class="WhatsApp">
+        <div class="foot"></div>
+
+    </footer>
+    
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./script.js"></script>
+
+    
+    
+</body>
+</html>
