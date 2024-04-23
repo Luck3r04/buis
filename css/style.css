@@ -227,27 +227,46 @@ color: #000000;
 }
 
 .header-zayavka{
+/* Войти */
+
 position: absolute;
-display: flex;
-width: 339px;
-height: 45px;
-left: 1172px;
-top: 92px;
-background: #ECCA52;
-border-radius: 10px;
+width: 71px;
+height: 28px;
+left: 1357px;
+top: 102px;
+
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 400;
-font-size: 26px;
-line-height: 31px;
-display: flex;
-justify-content: center;
-align-items: center;
-align-items: center;
+font-size: 24px;
+line-height: 28px;
 text-align: center;
+
 color: #000000;
+
+
 }
 
+.header-reg{
+/* Регистрация */
+
+position: absolute;
+width: 147px;
+height: 28px;
+left: 1319px;
+top: 179px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+
+color: #000000;
+
+
+}
 
 .main{
 position: absolute;
@@ -1692,7 +1711,20 @@ color: #000000;
 
 text-align: start;
 }
-.about{
+
+.navigation{
+    visibility: hidden;
+}
+
+.header-bg{
+    visibility: hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.main-about{
 /* о компании */
 
 position: absolute;
@@ -1710,8 +1742,10 @@ text-align: center;
 letter-spacing: 0.25em;
 
 color: #000000;
+}
 
-
+div#main-about{
+    visibility: hidden;
 }
 
 .about-img{
