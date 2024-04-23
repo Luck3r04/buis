@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бизнес-Система</title>
+    <link rel="stylesheet" href="./css/buis.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <head>
+        <div class="header-bg"></div>
+        <img class="header-logo" href="./Main.html" src="./images/logo 1.png" alt="logo">
+        <h1 class="header-business">Бизнес система</h1>
+        <h1 class="header-ocenka">оценочная компания</h1>
+        <h1 class="header-vladimir">г. Владимир</h1>
+        <a class="header-zayavka openPopup" href="#" >Оставить заявку</a>
+        <h1 class="header-locate">ул. 1-я Никольская, д. 10, оф. 8</h1>
+        <h1 class="header-time">с 9:00 до 18:00 ПН - ПТ</h1>
+        <h1 class="header-contact">+7(920) 628-88-33 
+            323860@mail.ru</h1>
+    </head>
+    <main>
+        <nav class="navigation">
+            <ul class="list-line">
+                <li><a class="main" href="./Main.html">Главная</a></li>
+                <li><a class="about" href="#main-about">О компании</a></li>
+                
+                <div class="dropdown">
+                    <a class="uslugi" href="./Main.html#nashi-uslugi">Услуги </a>
+                    <div class="dropdown-content">
+                        <a href="./nedviz.html">Оценка недвижимости</a>
+                        <a href="./dviz.html">Оценка движимого имущества</a>    
+                        <a href="./nemat.html">Оценка нематериальных активов</a>
+                        <a href="./buis.html">Оценка бизнеса</a>
+                        <a href="./ush.html">Оценка ущерба</a>
+                        <a href="./sud.html">Судебные экспертизы</a>
+                    </div>
+                </div>
+                <a class="contacts" href="#main-con">Контакты</a>
+            </ul>
+        </nav>
+        <button id="backToTopBtn" onclick="scrollToTop()">&#8593</button>
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopup">&#10006;</span>
+                <p>Оставить заявку</p>
+                <form action="">
+                    <input data-mask="fio" type="text" placeholder="Ваше ФИО...">
+                    <input data-mask="phone" type="text" placeholder="Ваш номер телефона..." >
+                    <button>Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+        <div id="main-about" class="about-bg"></div>
+        <h1  class="main-about">оценка бизнеса</h1>
+        <h1 class="ocen">Оценка бизнеса - это важный этап для предпринимателей, инвесторов и компаний в различных ситуациях, включая продажу, покупку, финансирование, учет и налогообложение. Мы предлагаем высококачественные услуги по оценке бизнеса, помогая нашим клиентам принимать обоснованные решения и максимизировать стоимость своего бизнеса.</h1>
+        <img src="./images/bui-img.png" alt="dvi-img" class="dvi-img">
+        <h1 class="vkl">Наши услуги включают:</h1>
+        <ul class="perech">
+            <li>Оценка Ликвидации: Мы помогаем оценить стоимость бизнеса в случае ликвидации, включая оценку активов, задолженностей и потенциальных расходов.</li>
+            <li>Оценка для Продажи/Покупки: Мы проводим анализ финансовых показателей, рыночной среды и других факторов для определения справедливой стоимости бизнеса при продаже или покупке.</li>
+            <li>Оценка Для Финансирования: Наши оценщики помогают определить стоимость бизнеса для привлечения финансирования, включая оценку активов, потенциала доходов и рисков.</li>
+        </ul>   
+        <h1 class="why">Почему выбирают нас:</h1>
+
+        <h1 class="why_first">Наша команда оценщиков имеет обширный опыт в оценке нематериальных активов различных видов и индустрий. Мы гарантируем профессиональный и индивидуальный подход к каждому проекту, обеспечивая точные и надежные результаты.</h1>
+        <h1 class="why-sec">Свяжитесь с нами сегодня, чтобы узнать больше о том, как мы можем помочь вам с оценкой вашего бизнеса и достижением ваших целей.</h1>
+
+        <a class="ost-za openPopup" href="#zapishis" >Оставить заявку</a>
+        <a class="za-cont" href="./Main.html#main-con">Наши контакты</a>
+    </main>
+    <footer>
+        <img src="./images/logo 1.png" alt="logo" class="footer-logo">
+        <h1 class="footer-business">Бизнес система</h1>
+        <h1 class="footer-ocen">оценочная компания</h1>
+
+        <h1 class="footer-bui">ООО "Бизнес-Система"</h1>
+        <h1 class="footer-inn">ИНН 3329038042  КПП 332901001</h1>
+        <h1 class="footer-adr">Адрес: 600000, г.Владимир, ул. 1-я Никольская, д. 10, оф. 8</h1>
+        <h1 class="footer-mail">Почта: 323860@mail.ru</h1>
+        <h1 class="footer-phone">Телефоны: +7(920) 628-88-33 / +7(930) 838-88-77</h1>
+        <h1 class="footer-time">Время работы: пн - пт с 9:00 до 18:00, сб. вс - вых.</h1>
+        
+        <h1 class="footer-uslugi">Услуги</h1>
+        <a class="footer-ned" href="./nedviz.html">Оценка недвижимости</a>
+        <a class="footer-dvi" href="./dviz.html">Оценка движимого имущества</a>
+        <a class="footer-nem" href="./nemat.html">Оценка нематериальных активов</a>
+        <a class="footer-buis" href="./buis.html">Оценка бизнеса</a>
+        <a class="footer-ush" href="./ush.html">Оценка ущерба</a>
+        <a class="footer-exp" href="./sud.html">Судебные экспертизы</a>
+        <a class="footer-sop" href="#">Сопровождение покупки и продажи бизнеса</a>
+
+        <h1 class="footer-comp">Компания</h1>
+        <a class="footer-main" href="./Main.html">Главная</a>
+        <a class="footer-u" href="./Main.html#nashi-uslugi">Услуги</a>
+        <a class="footer-about" href="./Main.html#main-about">О компании</a>
+        <a class="footer-con" href="./Main.html#main-con">Контакты</a>
+
+        <img src="./images/Viber.png" alt="viber" href="#" class="viber">
+        <img src="./images/Insta.png" alt="Instagram" href="#" class="Instagram">
+        <img src="./images/Telegram.png" alt="Telegram" href="#" class="Telegram">
+        <img src="./images/VK.png" alt="vkontakte" href="#" class="vkontakte">
+        <img src="./images/WhatsApp.png" alt="WhatsApp" href="#" class="WhatsApp">
+        <div class="foot"></div>
+
+    </footer>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
